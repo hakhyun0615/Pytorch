@@ -6,7 +6,7 @@ from torch.utils.data import TensorDataset, DataLoader
 import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 
-# GPU 사용
+# GPU
 # USE_CUDA = torch.cuda.is_available() 
 # device = torch.device("cuda" if USE_CUDA else "cpu")
 # print("{}로 학습합니다.".format(device))

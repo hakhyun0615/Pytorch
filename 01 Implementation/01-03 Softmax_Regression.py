@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 
-# GPU 사용
+# GPU
 # USE_CUDA = torch.cuda.is_available() 
 # device = torch.device("cuda" if USE_CUDA else "cpu")
 # print("{}로 학습합니다.".format(device))
@@ -29,7 +29,7 @@ dataLoader = DataLoader(dataset, batch_size=2 ,shuffle=True, drop_last=True)
 # 모델
 class SoftmaxRegressionModel(nn.Module):
     def __init__(self): 
-        super().__init__()
+        super(SoftmaxRegressionModel, self).__init__()
         self.linear = nn.Linear(4, 3)
 
     def forward(self, x):

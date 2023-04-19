@@ -84,6 +84,6 @@ for epoch in range(EPOCHS + 1):
             print('Epoch {:4d}/{} Batch {}/{} Cost {:.9f}'.format(epoch, EPOCHS, batch_idx+1, len(dataLoader), loss.item()))
 
 # 모델 저장
-# torch.save(obj=model, f='Softmax_Regression_Model.pt')
+# torch.save(obj=model, f='CNN_Model.pt')
 # 모델 불러오기
-# loaded_model = torch.load(f='Softmax_Regression_Model.pt')
+# loaded_model = torch.load(f='CNN_Model.pt')

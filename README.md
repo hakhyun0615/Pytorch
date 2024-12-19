@@ -1,5 +1,5 @@
 # Pytorch
-This repository contains Jupyter Notebook files summarizing the content of the book "Deep Learning with PyTorch - From Basics to Fine-Tuning".
+This repository contains Jupyter Notebook files summarizing the content of the book "딥 러닝 파이토치 교과서 - 입문부터 파인튜닝까지".
 
 ## Contents
 ### 1. My Implementation

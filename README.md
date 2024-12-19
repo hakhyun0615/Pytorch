@@ -1,4 +1,4 @@
-# Introduction to Pytorch
+# Pytorch
 This repository contains Jupyter Notebook files summarizing the content of the book "Deep Learning with PyTorch - From Basics to Fine-Tuning".
 
 ## Contents
